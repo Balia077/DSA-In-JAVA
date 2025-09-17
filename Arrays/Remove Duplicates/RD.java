@@ -1,6 +1,6 @@
 public class RD{
-    public static void printArray(int arr[]){
-        for(int i = 0; i < arr.length; i++){
+    public static void printArray(int arr[], int length){
+        for(int i = 0; i < length; i++){
             System.out.print(arr[i] + " ");
         }
         System.out.println();
@@ -17,6 +17,6 @@ public class RD{
                 i++;
             }
         }
-        printArray(arr);
+        printArray(arr, i+1);
     }
 }
