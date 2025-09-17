@@ -1,6 +1,6 @@
 public class TLE{
     public static void main(String args[]){
-        int arr[] = {2, 4, 1, 3, 5};
+        int arr[] = {2, 4, 1, 3, 5, 4};
         int largest = arr[0];
         int secondLargest = -1;
         int thirdLargest = 0;
